@@ -1,0 +1,87 @@
+{
+    "weapons": {
+        "melee": [
+            {
+                "id": 10,
+                "title": "Wrench",
+                "value": 20,
+                "durability": 50.0,
+                "description": "A big wrench.",
+                "stackable": true,
+                "rarity": 2,
+                "slug": "wrench",
+                "power": 3.0
+            },
+            {
+                "id": 11,
+                "title": "Fat Daddy",
+                "value": 50,
+                "durability": 70.0,
+                "description": "A bigger wrench.",
+                "stackable": false,
+                "rarity": 6,
+                "slug": "fat_daddy",
+                "power": 7.0
+            }
+        ],
+
+        "ranged": [
+            {
+                "id": 20,
+                "title": "Scrapper",
+                "value": 40,
+                "durability": 35.0,
+                "description": "A light pistol that shoots small bits of scrap.",
+                "stackable": false,
+                "rarity": 3,
+                "slug": "scrap_pistol",
+                "power": 2.0,
+                "ammo_id": 30,
+                "clip_capacity": 10,
+                "reload_time": 3.0
+            }
+        ],
+
+        "special": [
+
+        ]
+    },
+
+    "armor": {
+        "hands": [
+            {
+                "id": 40,
+                "title": "Worn Gloves",
+                "value": 5,
+                "durability": 20.0,
+                "description": "Old brown gloves with a musty smell that reminds you of the hunt.",
+                "stackable": false,
+                "rarity": 1,
+                "slug": "worn_gloves"
+            }
+        ]
+    },
+
+    "consumables": {
+        "ammo": [
+            {
+                "id": 30,
+                "title": "Scrap",
+                "value": 2,
+                "durability": -1.0,
+                "description": "Bits of metal debris",
+                "stackable": true,
+                "rarity": 1,
+                "slug": "scrap_ammo"
+            }
+        ],
+
+        "food": [
+
+        ]
+    },
+
+    "materials": {
+
+    }
+}

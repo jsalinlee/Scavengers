@@ -1,0 +1,1 @@
+public enum CardinalDirection { up, down, left, right }
